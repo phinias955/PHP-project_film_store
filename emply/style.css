@@ -1,0 +1,77 @@
+.sidenav {
+  background-color: rgb(25, 25, 75);
+  height: 100vh;
+}
+
+.sidenav ul {
+  list-style: none;
+  padding: 10px;
+}
+.sidenav ul li {
+  padding: 10px;
+  color: white;
+}
+.sidenav ul li a {
+  color: white;
+
+  text-decoration: none;
+}
+.conta {
+  display: flex;
+}
+.sidebar {
+  width: 15%;
+
+  /* position: fixed; */
+}
+.main-center {
+  width: 85%;
+  margin-left: 10px;
+
+}
+
+.main-cards {
+  display: flex;
+  margin-top: 10%;
+  width: 70%;
+  transform: translate(20%);
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  /* height: 30%; */
+}
+
+/* .admins {
+  background-color: rgb(224, 224, 224);
+  width: 100%;
+  padding: 30px;
+  height: 16vh;
+  border-radius: 10px;
+  box-shadow: rgb(0, 0, 0, 0.1);
+} */
+.admins h5 {
+  text-align: center;
+  text-transform: uppercase;
+  color: blue;
+  font-weight: bolder;
+  margin-top: 5px;
+}
+.text-white {
+    color: white;
+    text-decoration: none;
+  }
+  .text-white:hover{
+    color: white;
+    text-decoration: none;
+  }
+  .outline{
+    outline: none;
+   
+  }
+  .toUppercase{
+    text-transform: uppercase;
+  }
+
+  .forms input{
+    outline: none;
+  }

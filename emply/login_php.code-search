@@ -1,0 +1,39 @@
+# Query: login.php
+# ContextLines: 1
+
+7 results - 7 files
+
+admin\adduser.php:
+  132  } else {
+  133:     header("location:../index.php");
+  134  }
+
+admin\changepass.php:
+  66  } else {
+  67:     header("location:../index.php");
+  68  }
+
+admin\dashbord.php:
+  57  } else {
+  58:     header("location:../index.php");
+  59  }
+
+admin\index.php:
+  78  } else {
+  79:     header("location:../index.php");
+  80  }
+
+admin\logout.php:
+  4  session_destroy();
+  5: header("location:../index.php");
+  6  ?>
+
+admin\nav-bar.php:
+  37  }else{
+  38:     header("location:../index.php");
+  39  }
+
+users\user.php:
+  69  } else {
+  70:     header("location:../admin/../index.php");
+  71  }
