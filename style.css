@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    
+}
+.container{
+    width: 50%;
+    transform: translate(50%);
+    margin-top: 4%;
+    border-radius: 10px;
+
+}
+.label{
+    color:rgb(35, 35, 68);
+    font-weight: bold;
+    padding: 5px;
+
+    width: 150px;
+}
+input{
+    padding: 5px;
+    width: 100% !important;
+    outline: none;
+    display: block;
+    border: none;
+}
+.input,select{
+    width: 60%;
+    /* outline: auto; */
+    padding: 5px;
+}
+select{
+    width: 100% !important;
+    outline: none;
+    border: none;
+}
+.form{
+    background-color: wheat;
+    border-radius: 10px;
+}
+.btn1{
+    padding: 10px;
+    color:white;
+    font-weight: bold;
+    background-color: blue;
+    border: none;
+    margin-left: 41%;
+}
+.title{
+    margin-left: 25px;
+    color: rgb(30, 30, 63);
+    /* margin-top: 20px; */
+}
